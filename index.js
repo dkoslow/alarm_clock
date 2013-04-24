@@ -12,7 +12,7 @@ function getAlarmTime (data) {
 
 function setAlarm(time) {
   setTimeout( function() {
-    spawn('open', ['http://www.youtube.com/watch?v=VgSMxY6asoE']);
+    spawn('open', ['http://www.listenonrepeat.com/watch?v=VgSMxY6asoE']);
   }, time);
   stdin.pause();
 }
